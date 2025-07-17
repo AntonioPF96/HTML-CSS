@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HC Habbo Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <meta name = "description" content="Web de HC Habbo Agency, la Agencia HC de Habbo.es">
+    <meta name ="Author" content="Antonio P">
+    <meta name ="keywords" content="habbo agencia agency hc old club rol">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/logobanner.png" alt="logo habbo banner">               
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Presentación">Sobre nosotros </a>
+                </li>
+                <li>
+                    <a href="#Unirte">Como unirte</a>
+                </li>
+                <li>
+                    <a href="#Formate">Nuestros roles</a>
+                </li>
+                <li>
+                    <a href="#Departamentos">Departamentos</a>
+                </li>
+                <li>
+                    <a href="#Instalaciones">Instalaciones</a>
+                </li>
+            </ul>
+        </nav>
+        <span
+         class="burger"> ☰
+        </span>
+        <a 
+            href="#Login"><img src="./images/user.png" alt="imagenlogin">
+            <p>Identifícate</p>
+        </a>
+        
+    </header>
+    <section class="banner">
+        <div> <img src="./images/banner.png" alt="foto agencia"></div>
+        <h1>HC Habbo Agency, la agencia HC de Habbo.es</h1>
+    </section>
+    <section class="galery">
+        <ul>
+            <li>
+                <h2>Zona de Recepcionistas</h2>
+                <img src="./images/galery/zonarecep.png" alt="Zona de recepción">
+                <span class="free">Gratis</span>
+                <p>En esta zona le atenderán e informarán de como comenzar a formar parte de nuestro equipo y empezar tu rol</p>
+                <p>Uniforme Agentes: Rojo</p>
+            </li>
+            <li>
+                <h2>Zona Agentes de Seguridad</h2>
+                <img src="./images/galery/zonaseguridad.png" alt="Zona de seguridad">
+                <p>En esta zona le comprobarán las placas y chat correcto, en caso de no tenerlo, le ayudaran</p>
+                <p>Uniforme Agentes: Negro</p>
+            </li>
+            <li>
+                <h2>Zona de Tecnicos</h2>
+                <img src="./images/galery/zonatec.png" alt="Zona de tecnicos">
+                <p>En esta zona le asignarán su primer rol o en su defecto, verificarán que conoce las normas y lleva misión correcta.</p>
+                <p>Uniforme Agentes: Marron</p>
+            </li>
+            <li>
+                <h2>Zona de Directores</h2>
+                <img src="./images/galery/zonadir.png" alt="Zona de directores">
+                <p>En esta zona le ascenderán hasta determinados rangos ademas de velar por buen funcionamiento de la agencia.</p>
+                <p>Uniforme agentes: Sin uniforme</p>
+            </li>
+            <li>
+                <h2>Zona V.I.P</h2>
+                <img src="./images/galery/zonavip.png" alt="zona vip">
+                <p>Zona para las personas importantes, esta placa se puede adquirir por 1L, tambien da acceso a V.I.P de demas instalaciones.</p>
+                <p>Uniforme agentes: Sin uniforme</p>
+            </li>
+            <li>
+                <h2>Zona de Descanso</h2>
+                <img src="./images/galery/zonadesc.png" alt="zona de descanso">
+                <span class="free">Gratis</span>
+                <p>Zona de descanso para agentes</p>
+                <p>No podrás realizar tu nómina aquí</p>
+            </li>
+        </ul>
+    </section>
+    <section class= "clip" >
+        <video src="./video/corto1.mp4" muted autoplay loop></video>
+    </section>
+    <main>
+        <h3>¿Quienes somos?</h3>
+        <section>
+        <article>Somos una comunidad de jugadores de Habbo que nos apasiona el mundo del rol, por eso, hemos creado esta agencia siguiendo todos los principios básicos de la época old, adaptando y usando las herramientas mas actuales para ofreces maxima diversión y los roles mas avanazados, incluyendo zonas exclusivas, acceso a ascensos, o diferentes tipos de color de chat en sala.</article>
+        </section>
+        <div>
+        <img src="./images/main/fotocda.png" alt="foto primeros pasos">
+        <img src="./images/main/imgaj.png" alt="foto ajedrez">
+        <img src="./images/main/imgfut.png" alt="foto campo futbol">
+        <img src="./images/main/imggf.png" alt="foto grupo formaicion desk">
+        <img src="./images/main/imggf2.png" alt="foto grupo formacion desk 2">
+        <img src="/images/main/imghall.png" alt="foto hall">
+        <img src="./images/main/imgjd.png" alt="despacho jd">
+        <img src="./images/main/imgsup.png" alt="despacho supervisor cda">
+        </div>
+        <section>
+        <article>Todo comenzó desde un CDA, Centro de Ayuda Helpers Habbo, y la experiencia en salas, nos da la oportunidad de poder ofreceros la mejor agencia de Habbo, basada en tematica HC.</article>
+        </section>
+    </main>
+    <footer>
+        <h3>Contáctanos</h3>
+            <form action="/enviar" method="post">
+                <section class="quest">
+                <label for="userhabbo">Nombre de usuario Habbo:</label>
+                <input type="text" id="userhabbo" name="Nombre usuario Habbo" required>
+                <label for="email">Indique aquí su Email:</label>
+                <input type="email" id="email" name="Email de contacto" required>
+                <label for="consulta">Indique su consulta:</label>
+                <input type="text" id="consulta" name="Consulta usuario" required>
+                <label for="aceptocontacto">Acepto que un Administrador me conctacte:</label>
+                <input type="checkbox" id="aceptocontacto" name="Acepto que me contacten" required>
+                </section>
+                <div id="buttons">
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetear</button>
+                </div>
+            </form>
+            <section class="rrss">
+                <a href="http://www.facebook.com"><img src="./images/rrss/fb.png" alt="simbolo enlace facebook"></a>
+                <a href="http://www.instagram.com"><img src="./images/rrss/inst.png" alt="simbolo enlace instagram"></a>
+                <a href="http://www.x.com"><img src="./images/rrss/x.png" alt="simbolo enlace x"></a>
+                <a href="http://www.youtube.com"> <img src="./images/rrss/yt.png" alt="simbolo enlace youtube"></a>
+            </section>
+    </footer>
+    
+</body>
+</html>
